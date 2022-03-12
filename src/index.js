@@ -1,4 +1,4 @@
 import ReactDOM from "react-dom";
-import Container from "./Container";
+import App from "./App";
 
-ReactDOM.render(<Container />, document.querySelector(".navbar"));
+ReactDOM.render(<App />, document.querySelector(".root"));
