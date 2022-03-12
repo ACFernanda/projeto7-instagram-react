@@ -13,7 +13,7 @@ export default function FundoPost({ srcCurtida, curtidoPor, qtdCurtidas }) {
       </div>
 
       <div class="curtidas">
-        <img src={srcCurtida} />
+        <img src={srcCurtida} alt="" />
         <div class="texto">
           Curtido por <strong>{curtidoPor}</strong> e{" "}
           <strong>outras {qtdCurtidas} pessoas</strong>

@@ -2,7 +2,7 @@ export default function TopoPost({ srcUsuario, nomeUsuario }) {
   return (
     <div class="topo">
       <div class="usuario">
-        <img src={srcUsuario} />
+        <img src={srcUsuario} alt="" />
         {nomeUsuario}
       </div>
       <div class="acoes">

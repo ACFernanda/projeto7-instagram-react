@@ -1,11 +1,19 @@
 export default function Usuario() {
-  return (
+  const usuarioPrincipal = [
+    {
+      fotoPerfil: "assets/img/catanacomics.svg",
+      nomePerfil: "catanacomics",
+      nomeUsuario: "Catana",
+    },
+  ];
+
+  return usuarioPrincipal.map(({ fotoPerfil, nomePerfil, nomeUsuario }) => (
     <div class="usuario">
-      <img src="assets/img/catanacomics.svg" alt="" />
+      <img src={fotoPerfil} alt="" />
       <div class="texto">
-        <strong>catanacomics</strong>
-        Catana
+        <strong>{nomePerfil}</strong>
+        {nomeUsuario}
       </div>
     </div>
-  );
+  ));
 }
