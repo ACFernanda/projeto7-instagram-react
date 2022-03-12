@@ -30,8 +30,8 @@ export default function Posts() {
     },
     {
       usuario: {
-        srcUsuario: "assets/img/adorable_animal.svg",
-        nomeUsuario: "adorable_animals",
+        srcUsuario: "assets/img/nathanwpylestrangeplanet.svg",
+        nomeUsuario: "nathanwpylestrangeplanet",
       },
       conteudo: {
         tipo: "video",

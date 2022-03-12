@@ -93,6 +93,7 @@ body {
 }
 
 .stories {
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   height: 118px;
@@ -158,6 +159,7 @@ body {
 }
 
 .post .topo {
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 13px 16px;
@@ -193,7 +195,12 @@ body {
   width: 100%;
 }
 
+.fundo {
+  background-color: #ffffff;
+}
+
 .post .fundo .acoes {
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 13px 16px;
@@ -205,6 +212,7 @@ body {
 }
 
 .post .fundo .curtidas {
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   padding: 0 16px 13px;
@@ -222,6 +230,7 @@ body {
 }
 
 .novo-comentario {
+  background-color: #ffffff;
   margin-top: 5px;
   margin-left: 14px;
   height: 55px;
