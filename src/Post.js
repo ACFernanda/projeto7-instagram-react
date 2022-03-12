@@ -9,7 +9,11 @@ export default function Post({ usuario, conteudo, curtidas }) {
         srcUsuario={usuario.srcUsuario}
         nomeUsuario={usuario.nomeUsuario}
       />
-      <ConteudoPost srcConteudo={conteudo.srcConteudo} alt={conteudo.alt} />
+      <ConteudoPost
+        tipo={conteudo.tipo}
+        srcConteudo={conteudo.srcConteudo}
+        alt={conteudo.alt}
+      />
       <FundoPost
         srcCurtida={curtidas.srcCurtida}
         curtidoPor={curtidas.curtidoPor}

@@ -5,6 +5,7 @@ export default function Posts() {
     {
       usuario: { srcUsuario: "assets/img/meowed.svg", nomeUsuario: "meowed" },
       conteudo: {
+        tipo: "imagem",
         srcConteudo: "assets/img/gato-telefone.svg",
         alt: "gato-telefone",
       },
@@ -16,7 +17,36 @@ export default function Posts() {
     },
     {
       usuario: { srcUsuario: "assets/img/barked.svg", nomeUsuario: "barked" },
-      conteudo: { srcConteudo: "assets/img/dog.svg", alt: "cachorro" },
+      conteudo: {
+        tipo: "imagem",
+        srcConteudo: "assets/img/dog.svg",
+        alt: "cachorro",
+      },
+      curtidas: {
+        srcCurtida: "assets/img/adorable_animals.svg",
+        curtidoPor: "adorable_animals",
+        qtdCurtidas: 99.159,
+      },
+    },
+    {
+      usuario: {
+        srcUsuario: "assets/img/adorable_animal.svg",
+        nomeUsuario: "adorable_animals",
+      },
+      conteudo: {
+        tipo: "video",
+        srcConteudo: [
+          {
+            srcVideo: "assets/video/video.mp4",
+            tipoVideo: "video/mp4",
+          },
+          {
+            srcVideo: "assets/video/video.ogv",
+            tipoVideo: "video/ogv",
+          },
+        ],
+        alt: "",
+      },
       curtidas: {
         srcCurtida: "assets/img/adorable_animals.svg",
         curtidoPor: "adorable_animals",
