@@ -48,9 +48,9 @@ export default function Posts() {
         alt: "",
       },
       curtidas: {
-        srcCurtida: "assets/img/adorable_animals.svg",
-        curtidoPor: "adorable_animals",
-        qtdCurtidas: 99.159,
+        srcCurtida: "assets/img/wawawicomics.svg",
+        curtidoPor: "wawawicomics",
+        qtdCurtidas: 73.539,
       },
     },
   ];
