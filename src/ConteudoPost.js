@@ -4,7 +4,7 @@ export default function ConteudoPost({ tipo, srcConteudo, alt }) {
       {tipo === "imagem" ? (
         <img src={srcConteudo} alt={alt} />
       ) : (
-        <video autoplay muted loop>
+        <video autoPlay muted loop>
           {srcConteudo.map(({ srcVideo, tipoVideo }) => (
             <source src={srcVideo} type={tipoVideo} />
           ))}
